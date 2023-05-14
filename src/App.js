@@ -115,6 +115,7 @@ const ArticleContainer = styled.div`
 const Title = styled.h1`
   font-size: 36px;
   margin-bottom: 20px;
+  text-align: center;
 `;
 
 const SubTitle = styled.h2`
