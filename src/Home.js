@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+//import { Link } from "react-router-dom";
 
 import "./HomePage.css"; // Import the CSS file for styling
 //import articles from "./config/articles";

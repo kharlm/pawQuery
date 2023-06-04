@@ -1,6 +1,5 @@
 import React from "react";
 import "./Cards.css";
-import articles from "../config/articles";
 import CardItem from "./CardItem";
 
 function Cards() {
