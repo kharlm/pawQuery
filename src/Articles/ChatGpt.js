@@ -127,18 +127,18 @@ const ArticleContainer = styled.div`
 `;
 
 const Title = styled.h1`
-  font-size: 36px;
+  font-size: 4vw;
   margin-bottom: 20px;
   text-align: center;
 `;
 
 const Subtitle = styled.h2`
-  font-size: 24px;
+  font-size: 3vw;
   margin-bottom: 10px;
 `;
 
 const Paragraph = styled.p`
-  font-size: 18px;
+  font-size: 2vw;
   line-height: 1.5;
   margin-bottom: 20px;
 `;
@@ -150,13 +150,13 @@ const List = styled.ul`
 `;
 
 const ListItem = styled.li`
-  font-size: 18px;
+  font-size: 2vw;
   line-height: 1.5;
   margin-bottom: 10px;
 `;
 
 const Conclusion = styled.h3`
-  font-size: 20px;
+  font-size: 2.5vw;
   font-weight: bold;
   margin-bottom: 10px;
 `;
@@ -169,8 +169,8 @@ const ImageContainer = styled.div`
 `;
 
 const Image = styled.img`
-  width: 500px;
-  height: 500px;
+  max-width: 100%;
+  height: auto;
   object-fit: cover;
   border-radius: 10px;
   margin: 10px;
