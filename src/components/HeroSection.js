@@ -6,8 +6,15 @@ function HeroSection() {
   return (
     <div className="hero-container">
       <video src="/videos/video-1.mp4" autoPlay loop muted />
-      <h1>Query Place</h1>
-      <p>All your popular questions answered with articles</p>
+      <div>
+        <h1 className="hero-header-large">Query Place</h1>
+      </div>
+      <div>
+        <h1 className="hero-header-small">
+          All your popular questions answered with articles
+        </h1>
+      </div>
+
       {/* <div className="hero-btns">
         <Button
           className="btns"
