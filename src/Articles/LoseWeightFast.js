@@ -8,9 +8,7 @@ function App() {
         <Title>How to Lose Weight Fast</Title>
         <ImageContainer>
           <Image
-            src={
-              "https://images.unsplash.com/photo-1604480132715-bd70038b74df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1218&q=80"
-            }
+            src="https://images.unsplash.com/photo-1604480132715-bd70038b74df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1218&q=80"
             alt="Weight loss scrabble word on plate"
           />
         </ImageContainer>
@@ -116,17 +114,26 @@ const Title = styled.h1`
   font-size: 36px;
   margin-bottom: 20px;
   text-align: center;
+  @media (max-width: 768px) {
+    font-size: 30px;
+  }
 `;
 
 const SubTitle = styled.h2`
   font-size: 24px;
   margin-bottom: 10px;
+  @media (max-width: 768px) {
+    font-size: 20px;
+  }
 `;
 
 const Paragraph = styled.p`
   font-size: 18px;
   line-height: 1.5;
   margin-bottom: 20px;
+  @media (max-width: 768px) {
+    font-size: 16px;
+  }
 `;
 
 const ImageContainer = styled.div`
@@ -142,6 +149,10 @@ const Image = styled.img`
   object-fit: cover;
   border-radius: 10px;
   margin: 10px;
+  @media (max-width: 768px) {
+    width: 100%;
+    height: auto;
+  }
 `;
 
 export default App;

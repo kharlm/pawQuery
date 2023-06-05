@@ -109,17 +109,29 @@ const Title = styled.h1`
   font-size: 36px;
   margin-bottom: 20px;
   text-align: center;
+
+  @media (max-width: 768px) {
+    font-size: 28px;
+  }
 `;
 
 const Subtitle = styled.h2`
   font-size: 24px;
   margin-bottom: 10px;
+
+  @media (max-width: 768px) {
+    font-size: 20px;
+  }
 `;
 
 const Paragraph = styled.p`
   font-size: 18px;
   line-height: 1.5;
   margin-bottom: 20px;
+
+  @media (max-width: 768px) {
+    font-size: 16px;
+  }
 `;
 
 const ImageContainer = styled.div`
@@ -130,11 +142,16 @@ const ImageContainer = styled.div`
 `;
 
 const Image = styled.img`
-  width: 500px;
+  width: 400px;
   height: 500px;
   object-fit: cover;
   border-radius: 10px;
   margin: 10px;
+
+  @media (max-width: 768px) {
+    width: 100%;
+    height: auto;
+  }
 `;
 
 export default App;
