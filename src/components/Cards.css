@@ -1,6 +1,8 @@
 .cards {
-  padding: 4rem;
+  padding-left: 0rem;
+  padding-right: 1rem;
   background: #fff;
+  align-items: center;
 }
 
 h1 {

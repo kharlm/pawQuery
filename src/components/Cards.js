@@ -6,7 +6,9 @@ import articles from "../config/articles";
 function Cards() {
   return (
     <div className="cards">
-      <h1>Check out these articles!</h1>
+      <h1 style={{ paddingLeft: "1rem", paddingTop: "1rem" }}>
+        Check out these articles!
+      </h1>
       <div className="article-tiles">
         {articles.map(article => (
           <Link
